@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e23277a7-95dc-42b9-a9be-19e6f2f2330c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/META-INF/JGame.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jengine/entities/Entity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jengine/graphics/Renderer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jengine/math/Vector2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jengine/math/Vector2f.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jengine/physics/BoxCollider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jgame/GameManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JGame/me/callum/jgame/GameWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jengine/entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jengine/graphics/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jengine/math/Vector2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jengine/math/Vector2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jengine/physics/BoxCollider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jgame/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="87" selection-start-line="86" selection-end-line="87" />
+            <state relative-caret-position="305">
+              <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#drawRotatedCollider#0;class#GameWindow#0" />
               </folding>
             </state>
           </provider>
@@ -288,15 +267,16 @@
       <updated>1574417920740</updated>
       <workItem from="1574417925363" duration="4076000" />
       <workItem from="1574422622169" duration="3708000" />
-      <workItem from="1574428445811" duration="2502000" />
+      <workItem from="1574428445811" duration="2852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10286000" />
+    <option name="totallyTimeSpent" value="10636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,7 +317,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java</url>
-          <line>163</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -415,11 +395,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/callum/jgame/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="87" selection-start-line="86" selection-end-line="87" />
+        <state relative-caret-position="305">
+          <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#drawRotatedCollider#0;class#GameWindow#0" />
           </folding>
         </state>
       </provider>

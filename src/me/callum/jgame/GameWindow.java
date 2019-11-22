@@ -102,26 +102,22 @@ public class GameWindow extends JPanel {
         var aCenter = a.copyCenter();
         var bCenter = b.copyCenter();
 
-        var aTR = getMax(rotatedA);
-        var bTL = getMin(rotatedB);
-
+        // TODO: At the moment we're just using 1, -1 as that's 45 degrees, we need to work out the axis manually?
         var axis = new Vector2f(1, -1);
 
         var C = bCenter.copy().subtract(aCenter);
-        var A = aTR.copy();
-        var B = bTL.copy();
+        var A = getMax(rotatedA);
+        var B = getMin(rotatedB);
 
         var projC = Vector2f.dot(C, axis);
         var projA = Vector2f.dot(A, axis);
         var projB = Vector2f.dot(B, axis);
+
         var gap = projC - projA + projB;
 
         System.out.println(String.format("%s, %s, %s, %s", gap, projC, projA, projB));
 
-        if (gap < 0) {
-            return true;
-        }
-        return false;
+        return gap < 0.0f;
     }
 
     private void drawColliderPoints(BoxCollider col, boolean isColliding) {
@@ -157,8 +153,10 @@ public class GameWindow extends JPanel {
         new GameWindow();
     }
 
-
     private void drawRotatedCollider(BoxCollider col) {
+
+        // Legacy code to draw rotated rectangle.
+        // Useful to ensure we don't mess up generation of rotated verts
         g.translate(0, -5);
         g.setColor(Color.green);
 
